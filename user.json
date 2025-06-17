@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Dave",
+    "age": "30",
+    "email": "david@gmail.com",
+    "phoneNumber": "123-456-7890",
+    "password": "securepassword",
+    "userId": 0.42104206414753387
+  },
+  {
+    "name": "Dave",
+    "age": "30",
+    "email": "david@gmail.com",
+    "phoneNumber": "123-456-7890",
+    "password": "securepassword",
+    "userId": 0.1516376434709823
+  },
+  {
+    "name": "Dave",
+    "age": "30",
+    "email": "david@gmail.com",
+    "phoneNumber": "123-456-7890",
+    "password": "securepassword",
+    "userId": 0.31554965537973767
+  },
+  {
+    "name": "Dave",
+    "age": "30",
+    "email": "david@gmail.com",
+    "phoneNumber": "123-456-7890",
+    "password": "securepassword",
+    "userId": 0.18324260087435396
+  },
+  {
+    "name": "Dave",
+    "age": "30",
+    "email": "david@gmail.com",
+    "phoneNumber": "123-456-7890",
+    "password": "securepassword",
+    "userId": 0.24431958824542876
+  },
+  {
+    "name": "Dave",
+    "age": "30",
+    "email": "david@gmail.com",
+    "phoneNumber": "123-456-7890",
+    "password": "securepassword",
+    "userId": 0.5933340226910317
+  }
+]

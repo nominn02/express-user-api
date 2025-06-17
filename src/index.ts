@@ -1,19 +1,16 @@
-import express from "express";
+import userRouter from "./router/user/user";
+import express, { Request, Response } from "express";
+
 const app = express()
 const port = 3000;
 
+app.use(express.json());
 
-app.get('/', (req, res) => {
-  res.send({
-    name: "testName",
-    age: "12",
-  });
+app.get("/", (req: Request, res: Response) => {
+  res.send("Hello World!");
 });
 
-app.post("/api/user", (req, res) => {
-    const { name, age } = req.body;
-    res.json({ message: `User ${name} with age ${age} created.`})
-});
+app.use("/", userRouter);
 
 app.listen(port, () => {
   console.log(`Example app listening on port http://localhost:${port}`)
