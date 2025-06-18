@@ -41,8 +41,7 @@ const uniqueId = Math.random();
     res.send("User created successfully");
 });
 
-
-userRouter.delete("/deleteUser", (req: Request, res: Response) => {
+userRouter.post("/deleteUser", (req: Request, res: Response) => {
   const { userId } = req.body;
   const existingData = fs.readFileSync("./user.json", "utf8");
 
@@ -55,6 +54,8 @@ userRouter.delete("/deleteUser", (req: Request, res: Response) => {
   res.json({
     userId,
   });
+
+  res.send("User deleted successfully");
 });
 
 userRouter.put("/updateUser", (req: Request, res: Response) => {

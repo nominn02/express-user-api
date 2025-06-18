@@ -7,3 +7,9 @@ phoneNumber: string;
 password: string;
 userId?: number;
 }
+
+export type Todo = {
+  id: number;
+  desc: string;
+  isComplete: boolean;
+};
