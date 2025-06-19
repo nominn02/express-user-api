@@ -1,15 +1,4 @@
 [
-  {
-    "name": "dave",
-    "age": "21",
-    "email": "david@gmail.com",
-    "phoneNumber": "123-456-7890",
-    "password": "securepassword",
-    "userId": 0.656799828275282
-  },
-  null,
-  null,
-  null,
   null,
   null,
   {
@@ -18,30 +7,6 @@
     "email": "david@gmail.com",
     "phoneNumber": "123-456-7890",
     "password": "securepassword",
-    "userId": 0.4828005622601721
-  },
-  {
-    "name": "Dave",
-    "age": "30",
-    "email": "david@gmail.com",
-    "phoneNumber": "123-456-7890",
-    "password": "securepassword",
-    "userId": 0.8246512437594093
-  },
-  {
-    "name": "Dave",
-    "age": "30",
-    "email": "david@gmail.com",
-    "phoneNumber": "123-456-7890",
-    "password": "securepassword",
-    "userId": 0.12966186260263313
-  },
-  {
-    "name": "Dave",
-    "age": "30",
-    "email": "david@gmail.com",
-    "phoneNumber": "123-456-7890",
-    "password": "securepassword",
-    "userId": 0.015147798602114015
+    "userId": 0.6295194581475567
   }
 ]
